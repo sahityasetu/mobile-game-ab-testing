@@ -1,0 +1,40 @@
+{
+  "players": 90189,
+  "srm": {
+    "share_gate_30": 0.4956,
+    "p_value": 0.0086
+  },
+  "retention": {
+    "retention_1": {
+      "gate_30": 0.4482,
+      "gate_40": 0.4423,
+      "diff_pp": -0.59,
+      "ci95_pp": [
+        -1.24,
+        0.06
+      ],
+      "p_value": 0.0744,
+      "prob_gate_30_better": 0.9629
+    },
+    "retention_7": {
+      "gate_30": 0.1902,
+      "gate_40": 0.182,
+      "diff_pp": -0.82,
+      "ci95_pp": [
+        -1.33,
+        -0.31
+      ],
+      "p_value": 0.0016,
+      "prob_gate_30_better": 0.9992
+    }
+  },
+  "mde_pp": {
+    "retention_1": 0.93,
+    "retention_7": 0.74
+  },
+  "peeking_simulation": {
+    "looks": 14,
+    "false_positive_single_look": 0.044,
+    "false_positive_with_peeking": 0.221
+  }
+}
